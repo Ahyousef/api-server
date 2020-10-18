@@ -1,0 +1,39 @@
+{
+  "categories": [
+    {
+      "name": "clothes",
+      "display_name": "Clothes Category",
+      "description": "This category is for clothes",
+      "id": 1
+    },
+    {
+      "name": "food",
+      "display_name": "Food Category",
+      "description": "This is a category for food",
+      "id": 2
+    }
+  ],
+  "products": [
+    {
+      "category": "food",
+      "name": "apple",
+      "display_name": "Apple",
+      "description": "This is a round fruit",
+      "id": 2
+    },
+    {
+      "category": "clothes",
+      "name": "pants",
+      "display_name": "Pants",
+      "description": "This is a legs clothesware",
+      "id": 4
+    },
+    {
+      "category": "clothes",
+      "name": "pants",
+      "display_name": "Pants",
+      "description": "This is a legs clothesware",
+      "id": 5
+    }
+  ]
+}

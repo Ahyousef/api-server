@@ -1,0 +1,199 @@
+{
+    "openapi": "3.0.1",
+    "info": {
+      "title": "defaultTitle",
+      "description": "defaultDescription",
+      "version": "0.1"
+    },
+    "servers": [
+      {
+        "url": "http://localhost:3000"
+      }
+    ],
+    "paths": {
+      "/products/4": {
+        "put": {
+          "description": "Update one full item",
+          "requestBody": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "integer"
+                    },
+                    "category": {
+                      "type": "string"
+                    },
+                    "display_name": {
+                      "type": "string"
+                    }
+                  }
+                },
+                "examples": {
+                  "0": {
+                    "value": "    {\n        \"category\": \"clothes\",\n        \"name\": \"pants\",\n        \"display_name\": \"Pants\",\n        \"description\": \"This is a legs clothesware\",\n        \"id\": 4\n    }"
+                  }
+                }
+              }
+            }
+          },
+          "responses": {
+            "200": {
+              "description": "Auto generated using Swagger Inspector",
+              "content": {
+                "application/json; charset=utf-8": {
+                  "schema": {
+                    "type": "string"
+                  },
+                  "examples": {}
+                }
+              }
+            }
+          },
+          "servers": [
+            {
+              "url": "http://localhost:3000"
+            }
+          ]
+        },
+        "servers": [
+          {
+            "url": "http://localhost:3000"
+          }
+        ]
+      },
+      "/products/3": {
+        "delete": {
+          "description": "Delete one item",
+          "responses": {
+            "200": {
+              "description": "Auto generated using Swagger Inspector",
+              "content": {
+                "application/json; charset=utf-8": {
+                  "schema": {
+                    "type": "string"
+                  },
+                  "examples": {}
+                }
+              }
+            }
+          },
+          "servers": [
+            {
+              "url": "http://localhost:3000"
+            }
+          ]
+        },
+        "servers": [
+          {
+            "url": "http://localhost:3000"
+          }
+        ]
+      },
+      "/categories": {
+        "get": {
+          "description": "Get all items",
+          "responses": {
+            "200": {
+              "description": "Auto generated using Swagger Inspector",
+              "content": {
+                "application/json; charset=utf-8": {
+                  "schema": {
+                    "type": "string"
+                  },
+                  "examples": {}
+                }
+              }
+            }
+          },
+          "servers": [
+            {
+              "url": "http://localhost:3000"
+            }
+          ]
+        },
+        "servers": [
+          {
+            "url": "http://localhost:3000"
+          }
+        ]
+      },
+      "/products": {
+        "get": {
+          "description": "Get some items with param",
+          "parameters": [
+            {
+              "name": "category",
+              "in": "query",
+              "required": false,
+              "style": "form",
+              "explode": true,
+              "schema": {
+                "type": "string"
+              },
+              "example": "clothes"
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Auto generated using Swagger Inspector",
+              "content": {
+                "application/json; charset=utf-8": {
+                  "schema": {
+                    "type": "string"
+                  },
+                  "examples": {}
+                }
+              }
+            }
+          },
+          "servers": [
+            {
+              "url": "http://localhost:3000"
+            }
+          ]
+        },
+        "servers": [
+          {
+            "url": "http://localhost:3000"
+          }
+        ]
+      },
+      "/products/2": {
+        "get": {
+          "description": "Get one item with ID",
+          "responses": {
+            "200": {
+              "description": "Auto generated using Swagger Inspector",
+              "content": {
+                "application/json; charset=utf-8": {
+                  "schema": {
+                    "type": "string"
+                  },
+                  "examples": {}
+                }
+              }
+            }
+          },
+          "servers": [
+            {
+              "url": "http://localhost:3000"
+            }
+          ]
+        },
+        "servers": [
+          {
+            "url": "http://localhost:3000"
+          }
+        ]
+      }
+    }
+  }
