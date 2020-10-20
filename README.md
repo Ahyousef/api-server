@@ -6,9 +6,9 @@ An Express/Node.js based server designed to be a “model agnostic” REST API s
 
 Day1: Setup application with json-server, some data and making sure postman is recognizing and able to execute CRUDE operations.
 
-Day2: 
+Day2: Setup express server and middleware, and tests for them.
 
-Day3: 
+Day3: Setup Mongoose DB instead of in-memory database for persistance. Create schemas, models and collections.
 
 Day4: 
 
