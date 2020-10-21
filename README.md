@@ -10,7 +10,7 @@ Day2: Setup express server and middleware, and tests for them.
 
 Day3: Setup Mongoose DB instead of in-memory database for persistance. Create schemas, models and collections.
 
-Day4: 
+Day4: Modularize the application even further, done by making one main route handler with a get :model param. As well as extend one Collection file to both models
 
 
 

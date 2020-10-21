@@ -14,7 +14,7 @@ var dateString = day + "/" + (month + 1) + "/" + year;
 describe('api server', () => {
   it('should add timeStamp to req', async () => {
     await mockRequest.get('/time').then((results) => {
-      expect(results.text).toBe("dateString");
+      expect(results.text).toBe(dateString);
     });
   });
 });
